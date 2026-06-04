@@ -25,7 +25,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png",
-      "bundler": "metro"
+      "bundler": "metro",
+      "name": "NexoFluye",
+      "shortName": "NexoFluye",
+      "description": "Gestiona las finanzas de tu negocio con claridad",
+      "themeColor": "#1E3A8A",
+      "backgroundColor": "#1E3A8A",
+      "display": "standalone",
+      "orientation": "portrait",
+      "lang": "es",
+      "scope": "/",
+      "startUrl": "/"
     },
     "plugins": [
       "expo-router",
