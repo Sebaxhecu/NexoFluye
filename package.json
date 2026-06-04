@@ -30,6 +30,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web --port 8081",
+    "build:web": "npx expo export --platform web",
+    "serve:web": "npx serve dist --single --listen 8081",
     "type-check": "tsc --noEmit"
   },
   "private": true
