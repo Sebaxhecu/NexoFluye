@@ -188,7 +188,7 @@ const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: Colors.background },
   header: {
     backgroundColor: Colors.primary,
-    paddingTop: Platform.OS === 'ios' ? 58 : 40,
+    paddingTop: Platform.OS === 'ios' || Platform.OS === 'web' ? 58 : 40,
     paddingBottom: 24,
     paddingHorizontal: 24,
   },
